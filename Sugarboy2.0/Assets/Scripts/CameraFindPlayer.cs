@@ -22,6 +22,5 @@ public class CameraFindPlayer : MonoBehaviour
             cinemachineVirtualCamera.Follow = currentPlayer.transform;
             cinemachineVirtualCamera.LookAt = currentPlayer.transform;
         }
-
     }
 }
