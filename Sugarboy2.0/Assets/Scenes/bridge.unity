@@ -10197,9 +10197,10 @@ GameObject:
   - component: {fileID: 1044875742}
   - component: {fileID: 1044875741}
   - component: {fileID: 1044875740}
-  m_Layer: 0
+  - component: {fileID: 1044875743}
+  m_Layer: 13
   m_Name: Plane (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10281,6 +10282,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044875738}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1044875743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044875738}
+  m_Material: {fileID: 13400000, guid: 49f84f7577a7e994ebb1f63c492cc1c4, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000003, y: 0.41637996, z: 10.000003}
+  m_Center: {x: -0.000003862898, y: -0.15856409, z: -0.00000004820089}
 --- !u!1001 &1047069841
 PrefabInstance:
   m_ObjectHideFlags: 0

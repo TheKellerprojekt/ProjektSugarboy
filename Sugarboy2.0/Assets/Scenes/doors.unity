@@ -34333,7 +34333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: doors.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: text.Array.size
@@ -34341,7 +34341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: text
@@ -34378,15 +34378,15 @@ PrefabInstance:
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[0]
       value: 
-      objectReference: {fileID: 1249707651}
+      objectReference: {fileID: 908428184}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[1]
       value: 
-      objectReference: {fileID: 623101399}
+      objectReference: {fileID: 176475712}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[2]
       value: 
-      objectReference: {fileID: 176475712}
+      objectReference: {fileID: 2094914753}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[3]
       value: 
