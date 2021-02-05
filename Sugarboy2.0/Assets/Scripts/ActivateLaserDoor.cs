@@ -21,9 +21,29 @@ public class ActivateLaserDoor : MonoBehaviour
             {
                 if (doors[i] != null)
                 {
-                    doors[i].SetActive(false);
-                    text[i].text = "open";
-                    text[i].color = Color.green;
+                    switch (doors[i].name)
+                    {
+                        case "elevator":
+
+                            doors[i].GetComponent<Animator>().SetBool("activated", true);
+                            text[i].text = "Lift\nin\nuse";
+                            text[i].color = Color.green;
+                            break;
+
+                        case "mainplate":
+
+                            doors[i].GetComponent<Animator>().SetBool("activated", true);
+                            text[i].text = "Caution\nbridge\nextends";
+                            text[i].color = Color.green;
+                            break;
+
+                        default:
+
+                            doors[i].SetActive(false);
+                            text[i].text = "open";
+                            text[i].color = Color.green;
+                            break;
+                    }
                 }
             }
             for (int i = 0; i < lights.Length; i++)
@@ -44,9 +64,28 @@ public class ActivateLaserDoor : MonoBehaviour
             {
                 if (doors[i] != null)
                 {
-                    doors[i].SetActive(true);
-                    text[i].text = "closed";
-                    text[i].color = Color.red;
+                    switch (doors[i].name)
+                    {
+                        case "elevator":
+
+                            doors[i].GetComponent<Animator>().SetBool("activated", false);
+                            text[i].text = "Lift\nnot\nin\nuse";
+                            text[i].color = Color.red;
+                            break;
+
+                        case "mainplate":
+                            doors[i].GetComponent<Animator>().SetBool("activated", false);
+                            text[i].text = "Caution\nbridge\nnot in\nuse";
+                            text[i].color = Color.red;
+
+                            break;
+
+                        default:
+                            doors[i].SetActive(true);
+                            text[i].text = "closed";
+                            text[i].color = Color.red;
+                            break;
+                    }
                 }
             }
             for (int i = 0; i < lights.Length; i++)

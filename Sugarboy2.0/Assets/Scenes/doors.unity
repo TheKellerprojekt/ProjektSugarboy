@@ -28399,7 +28399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2299578672309266785, guid: 6ff87b7a7097f954280a0d7740cea26b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.48
+      value: -7.7
       objectReference: {fileID: 0}
     - target: {fileID: 2299578672309266785, guid: 6ff87b7a7097f954280a0d7740cea26b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -33958,19 +33958,19 @@ PrefabInstance:
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: doors.Array.data[0]
       value: 
-      objectReference: {fileID: 262946399}
+      objectReference: {fileID: 1900747924}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: doors.Array.data[1]
       value: 
-      objectReference: {fileID: 1668619846}
+      objectReference: {fileID: 1882039968}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: text.Array.data[0]
       value: 
-      objectReference: {fileID: 357156881}
+      objectReference: {fileID: 1182486909}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: text.Array.data[1]
       value: 
-      objectReference: {fileID: 1116916797}
+      objectReference: {fileID: 1536153450}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: closedDoor
       value: 
@@ -33982,23 +33982,23 @@ PrefabInstance:
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[0]
       value: 
-      objectReference: {fileID: 908428184}
+      objectReference: {fileID: 1249707651}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[1]
       value: 
-      objectReference: {fileID: 2094914753}
+      objectReference: {fileID: 623101399}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[2]
       value: 
-      objectReference: {fileID: 1249707651}
+      objectReference: {fileID: 176475712}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[3]
       value: 
-      objectReference: {fileID: 623101399}
+      objectReference: {fileID: 908428184}
     - target: {fileID: 1411795200, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: lights.Array.data[4]
       value: 
-      objectReference: {fileID: 176475712}
+      objectReference: {fileID: 2094914753}
     - target: {fileID: 5183630139361490873, guid: c913389d49eba234da7ccd7d47c48f60, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.78
