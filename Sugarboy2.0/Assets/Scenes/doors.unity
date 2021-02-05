@@ -3236,7 +3236,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f1995c6a0d43c684aabfe617e6bb6acf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7302,6 +7302,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1639947103}
     m_Modifications:
+    - target: {fileID: 2214129877141987499, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
+      propertyPath: m_Text
+      value: Special authorization door
+      objectReference: {fileID: 0}
     - target: {fileID: 2448152932489526068, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -10374,7 +10378,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f1995c6a0d43c684aabfe617e6bb6acf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10491,7 +10495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8101149469806008198, guid: 929151fa73358e844ae2550486723706, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.001
+      value: 8.501
       objectReference: {fileID: 0}
     - target: {fileID: 8101149469806008198, guid: 929151fa73358e844ae2550486723706, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15746,6 +15750,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3949224689351267880, guid: b3e5880f7b2f17e44b67319c837a6a0f, type: 3}
+      propertyPath: m_Text
+      value: 'i dont have the key
+
+
+        but you will'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949224689351267880, guid: b3e5880f7b2f17e44b67319c837a6a0f, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949224689351267880, guid: b3e5880f7b2f17e44b67319c837a6a0f, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4055796878044183648, guid: b3e5880f7b2f17e44b67319c837a6a0f, type: 3}
       propertyPath: m_Name
       value: com_monitor (1)
@@ -18534,9 +18553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6798846538339611527, guid: 70ac9951b8fa51b40acac36058305f5b, type: 3}
       propertyPath: m_Text
-      value: 'leave the crib
-
-        -->'
+      value: i can almost smell it
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70ac9951b8fa51b40acac36058305f5b, type: 3}
@@ -18931,7 +18948,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044875738}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -5.2112665, y: 1.5000019, z: 0}
+  m_LocalPosition: {x: -5.132, y: 1.5000019, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1163623488}
@@ -18970,7 +18987,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f1995c6a0d43c684aabfe617e6bb6acf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21476,6 +21493,7 @@ Transform:
   - {fileID: 168272720}
   - {fileID: 1044875739}
   - {fileID: 1227495498}
+  - {fileID: 2068730317}
   m_Father: {fileID: 859807343}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21995,7 +22013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8101149469806008198, guid: 929151fa73358e844ae2550486723706, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.936
+      value: 10.186
       objectReference: {fileID: 0}
     - target: {fileID: 8101149469806008198, guid: 929151fa73358e844ae2550486723706, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22472,7 +22490,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f1995c6a0d43c684aabfe617e6bb6acf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23032,6 +23050,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 888839099}
     m_Modifications:
+    - target: {fileID: 2214129877141987499, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
+      propertyPath: m_Text
+      value: Special authorization door
+      objectReference: {fileID: 0}
     - target: {fileID: 2448152932489526068, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -23653,6 +23675,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483668221}
     m_Modifications:
+    - target: {fileID: 2214129877141987499, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
+      propertyPath: m_Text
+      value: Special authorization door
+      objectReference: {fileID: 0}
     - target: {fileID: 2448152932489526068, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -26429,7 +26455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1025432057651224981, guid: 361369e9af56443449c040c6bc6acc7c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.605862
+      value: 20.355862
       objectReference: {fileID: 0}
     - target: {fileID: 1025432057651224981, guid: 361369e9af56443449c040c6bc6acc7c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -38329,6 +38355,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 243396708714183180, guid: 9c127cac3909956428bc96d4cdfa16d6, type: 3}
   m_PrefabInstance: {fileID: 2057848757}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2068730316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068730317}
+  - component: {fileID: 2068730320}
+  - component: {fileID: 2068730319}
+  - component: {fileID: 2068730318}
+  m_Layer: 0
+  m_Name: Plane (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2068730317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068730316}
+  m_LocalRotation: {x: 0.000001013279, y: 0.7071068, z: -0.7071068, w: 0.000001013279}
+  m_LocalPosition: {x: -6.11, y: 2.5000021, z: -0.88}
+  m_LocalScale: {x: 0.225, y: 1, z: 0.775}
+  m_Children: []
+  m_Father: {fileID: 1163623488}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!64 &2068730318
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068730316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2068730319
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068730316}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f1995c6a0d43c684aabfe617e6bb6acf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2068730320
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068730316}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2075283585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40627,6 +40749,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 879978800}
     m_Modifications:
+    - target: {fileID: 2214129877141987499, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
+      propertyPath: m_Text
+      value: Special authorization door
+      objectReference: {fileID: 0}
     - target: {fileID: 2448152932489526068, guid: d2206d5578bef1d47bcc997c45933816, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
